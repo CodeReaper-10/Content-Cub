@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&display=swap');
+
+.rewards_catalog_height {
+  min-height: calc(100vh - 118px) !important;
+}
+
+.card {
+  background-color: #d0f2ff;
+  max-width: 300px;
+  margin: auto;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: var(--secondary-dark);
+  font-family: "Comfortaa", cursive;
+  border: none;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button_cs {
+  width: 45% !important;
+  font-size: 0.9rem !important;
+}
+
+.card:hover {
+    transform: scale(1.03);
+  }
+
+img {
+    padding: 22px 22px 22px 22px;
+}
