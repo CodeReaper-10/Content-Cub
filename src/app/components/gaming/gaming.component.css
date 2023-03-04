@@ -1,0 +1,75 @@
+body {
+    background: radial-gradient(circle, rgba(5,77,100,1) 15%, rgba(17,138,178,1) 65%, rgba(6,214,160,1) 95%);
+  }
+  
+  h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  
+  img {
+    border-radius: 10px;
+    margin: 0px 10px 30px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  .ba-slider__after, .ba-slider__fake {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .ba-slider__after {
+    overflow: hidden;
+    z-index: 3;
+    border-left: 2px solid #fff;
+  }
+  
