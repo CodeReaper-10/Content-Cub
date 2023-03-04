@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap'); */
 
 :root{
   --red:#ff3838;
 }
 
+.serv {
+  height: 240px !important;
+}
+
 *{
-	
-  font-family: 'Nunito', sans-serif;
+  font-family: "Comfortaa", cursive;
   margin:0; padding:0;
   box-sizing: border-box;
   outline: none; border:none;
@@ -20,17 +23,13 @@
   color:#fff;
 }
 
-html{
+/* html{
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
-}
+} */
 
-body{
-  background: radial-gradient(circle, rgba(5,77,100,1) 15%, rgba(17,138,178,1) 65%, rgba(6,214,160,1) 95%);
-   
-}
 div{
     text-align: center;
  }
@@ -41,7 +40,7 @@ div{
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  /* .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -49,7 +48,7 @@ div{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+  } */
   
   /* Change the color of links on hover */
   .topnav a:hover {

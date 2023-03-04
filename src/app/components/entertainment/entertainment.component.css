@@ -1,24 +1,28 @@
-body {
-    background: radial-gradient(circle, rgba(5,77,100,1) 15%, rgba(17,138,178,1) 65%, rgba(6,214,160,1) 95%);
-  }
-  h1{
-    
+
+ .container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+ }
+  h1 {
     color: white;
+    font-family: "Comfortaa", cursive;
   }
-  img{
-  
+  img {
   border-radius: 10px;
   margin: 0px 10px 30px 20px;
   }
-  p{
+
+  p {
     font-size: 25px;
     color: white;
-    
     text-align: center;
+    font-family: "Comfortaa", cursive;
   }
- div{
-    text-align: center;
- }
+
+  a {
+    color: var(--accent) !important;
+    font-family: "Comfortaa", cursive;
+  }
    /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;

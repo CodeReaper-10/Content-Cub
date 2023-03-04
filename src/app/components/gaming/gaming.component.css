@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&display=swap');
 body {
     background: radial-gradient(circle, rgba(5,77,100,1) 15%, rgba(17,138,178,1) 65%, rgba(6,214,160,1) 95%);
   }
@@ -12,6 +13,8 @@ body {
     border-radius: 10px;
     margin: 0px 10px 30px 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    max-width: 320px;
+    max-height: 240px;
   }
   
   p {
@@ -19,6 +22,7 @@ body {
     color: white;
     text-align: center;
     margin-bottom: 50px;
+    font-family: "Comfortaa", cursive;
   }
   
   div {
