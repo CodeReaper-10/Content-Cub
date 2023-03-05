@@ -9,17 +9,18 @@ import { FeaturesComponent } from './components/features/features.component';
 import { GamingComponent } from './components/gaming/gaming.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { VloggingComponent } from './components/vlogging/vlogging.component';
+import { AuthGuard } from '@auth0/auth0-angular';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
-  { path: 'dashboard', component: DashboardComponent },
-  { path: 'gaming', component: GamingComponent },
-  { path: 'education', component: EducationComponent },
-  { path: 'cooking', component: CookingComponent },
-  { path: 'entertainment', component: EntertainmentComponent },
-  { path: 'vlogging', component: VloggingComponent },
-  { path: 'features', component: FeaturesComponent },
-  { path: 'contact-us', component: ContactUsComponent },
+  { path: 'dashboard', canActivate: [AuthGuard], component: DashboardComponent },
+  { path: 'gaming', canActivate: [AuthGuard], component: GamingComponent },
+  { path: 'education', canActivate: [AuthGuard], component: EducationComponent },
+  { path: 'cooking', canActivate: [AuthGuard], component: CookingComponent },
+  { path: 'entertainment', canActivate: [AuthGuard], component: EntertainmentComponent },
+  { path: 'vlogging', canActivate: [AuthGuard], component: VloggingComponent },
+  { path: 'features', canActivate: [AuthGuard], component: FeaturesComponent },
+  { path: 'contact-us', canActivate: [AuthGuard], component: ContactUsComponent },
 ];
 
 @NgModule({
