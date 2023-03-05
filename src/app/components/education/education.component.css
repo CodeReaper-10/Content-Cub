@@ -1,15 +1,12 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
   --red:#ff3838;
 }
 
-.serv {
-  height: 240px !important;
-}
-
 *{
-  font-family: "Comfortaa", cursive;
+	
+  font-family: 'Nunito', sans-serif;
   margin:0; padding:0;
   box-sizing: border-box;
   outline: none; border:none;
@@ -23,13 +20,17 @@
   color:#fff;
 }
 
-/* html{
+html{
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
-} */
+}
 
+body{
+  background: radial-gradient(circle, rgba(5,77,100,1) 15%, rgba(17,138,178,1) 65%, rgba(6,214,160,1) 95%);
+   
+}
 div{
     text-align: center;
  }
@@ -40,7 +41,7 @@ div{
   }
   
   /* Style the links inside the navigation bar */
-  /* .topnav a {
+  .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -48,7 +49,7 @@ div{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  } */
+  }
   
   /* Change the color of links on hover */
   .topnav a:hover {
@@ -75,7 +76,7 @@ section{
 
 .heading{
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 2rem;
   padding:1rem;
   color:#666;
 }
@@ -126,10 +127,11 @@ section{
 .review .box-container .box{
   text-align: center;
   padding:2rem;
+  height: 21rem;
   border:1rem solid #fff;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
   border-radius: .5rem;
-  flex:1 1 30rem;
+  flex:1 1 20rem;
   background:#333;
   margin-top: 6rem;
 }
@@ -137,14 +139,14 @@ section{
 
 
 .review .box-container .box h3{
-  font-size: 2.5rem;
+  font-size: 1rem;
   color:#fff;
   padding:.5rem 0;
 }
 
 
 .review .box-container .box p{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color:#eee;
   padding:1rem 0;
 }
@@ -166,9 +168,9 @@ section{
 }
 
 .platform .box-container .box{
-  height:50%;
+  height:15rem;
   margin:1.5rem 1rem;
-  width:50%;
+  width:15rem;
   border:.5rem solid var(--orange);
   overflow: hidden;
   position: relative;
@@ -178,7 +180,7 @@ section{
 .platform .box-container .box img{
     height:100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .platform  .box-container .box .info{
@@ -206,11 +208,11 @@ section{
 
 .service .box-container .box{
   text-align: center;
-  padding:2rem;
-  border:1rem solid #fff;
+  padding:1rem;
+  border:0.5rem solid #fff;
   
   
-  flex:1 1 30rem;
+  flex:1 1 25rem;
   background:#333;
   margin-top: 6rem;   
 
@@ -224,7 +226,7 @@ section{
 .service .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .service .box-container .box .info{
@@ -249,12 +251,12 @@ section{
 
 
 .service .box-container .box .info h3{
-    font-size: 2.5rem;
-    color:#333;
+    font-size: 1.5rem;
+    color:black;
 }
 
 .service .box-container .box .info p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color:#666;
     padding:1rem 2rem;
 }
