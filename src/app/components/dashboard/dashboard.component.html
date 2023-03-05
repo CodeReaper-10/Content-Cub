@@ -1,6 +1,7 @@
 <app-navbar></app-navbar>
 <div class="container rewards_catalog_height">
-      <h1 class="text-center py-5 text-white" style="font-family: 'Comfortaa', cursive;">Categories</h1>
+  <h1 class="text-center mt-5 text-white" style="font-family: 'Comfortaa', cursive;" *ngIf="auth.user$ | async as user">Welcome, {{ user.name }}!</h1>
+  <h2 class="text-center pt-5 pb-2 text-white" style="font-family: 'Comfortaa', cursive;">Categories</h2>
   
       <div class="row">
         <div *ngFor="let category of categories" class="col-md-4 mb-4">

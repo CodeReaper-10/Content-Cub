@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Category } from 'src/app/models/category';
 import { CategoryService } from 'src/app/services/category.service';
+import { AuthService } from '@auth0/auth0-angular';
 
 @Component({
   selector: 'app-dashboard',
@@ -11,7 +12,7 @@ import { CategoryService } from 'src/app/services/category.service';
 export class DashboardComponent implements OnInit {
 
   categories: Category[] = []
-  constructor(private categoryServ: CategoryService, private router: Router) { }
+  constructor(public auth: AuthService, private categoryServ: CategoryService, private router: Router) { }
 
   ngOnInit(): void {
     this.categories = this.categoryServ.categories;
