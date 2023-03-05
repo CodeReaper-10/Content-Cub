@@ -14,6 +14,8 @@ import { GamingComponent } from './components/gaming/gaming.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { VloggingComponent } from './components/vlogging/vlogging.component';
+import { AuthModule } from '@auth0/auth0-angular';
+import { environment as env } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { VloggingComponent } from './components/vlogging/vlogging.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule.forRoot(env.auth)
   ],
   providers: [],
   bootstrap: [AppComponent]
