@@ -18,7 +18,7 @@
             </li>
             <li class="nav-item">
             <a class="nav-link fa fa-power-off text-danger" style="font-size:28px" data-toggle="tooltip"
-            data-placement="bottom" title="Log Out" [routerLink]="'/'"></a>
+            data-placement="bottom" title="Log Out" (click)="auth.logout()"></a>
             </li>
         </ul>
         </div>
