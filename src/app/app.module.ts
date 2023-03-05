@@ -15,7 +15,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { VloggingComponent } from './components/vlogging/vlogging.component';
 import { AuthModule } from '@auth0/auth0-angular';
-import { environment as env } from '../environments/environment';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,9 @@ import { environment as env } from '../environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthModule.forRoot(env.auth)
+    AuthModule.forRoot({
+      ...environment.auth
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
