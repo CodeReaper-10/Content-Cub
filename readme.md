@@ -49,7 +49,7 @@ Pull Requests and Issues: We created pull requests on our GitHub repository as w
 
 Github Branches Github branches helped a lot for beta testing of updated code before merging the new code into the original code. Our team approximately created 2-3 branches during the hackathon.
 
-Github Pages we deployed our website at ========== using Github pages. It was really simple to deploy our site through GitHub pages and we are planning to use this feature in future hackathons.
+Github Pages we deployed our website at https://akshitagupta15june.github.io/Content-Cub/ using Github pages. It was really simple to deploy our site through GitHub pages and we are planning to use this feature in future hackathons.
 
 Github Templates We used the Github default LICENSE template for adding an MIT license to our project.
 
